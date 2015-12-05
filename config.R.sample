@@ -1,0 +1,13 @@
+## Private tokens
+
+# URL to connect mongodb
+MONGO_URL <- "mongodb://localhost:27017/mqtt"
+
+# ponte's HTTP endpoint to your BME280 publisher
+WEATHER_HTTP_ENDPOINT <- "http://example.com/resources/BME280"
+# ponte's HTTP endpoint to your Hackey publisher
+HACKEY_HTTP_ENDPOINT <- "http://example.com/resources/Hackey"
+# Your Particle Photon's API endpoint and access token
+PARTICLE_API_ENDPOINT <- "https://api.particle.io/v1/devices/YOURDEVICE/YOURFUNCTION"
+PARTICLE_ACCESS_TOKEN <- "YOURACCESSTOKEN"
+
